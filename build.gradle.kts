@@ -14,6 +14,8 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    testImplementation("com.h2database:h2:1.3.148")
+
 }
 
 tasks.test {

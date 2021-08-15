@@ -108,7 +108,14 @@ class AirportTest {
         }
 
         @Test
-        fun testBusinessUsualPassenger() {
+        fun tesPa(test: TestReporter) {
+            test.publishEntry("SAlut")
+            test.publishEntry("eric", "Ampire")
+            test.publishEntry(mutableMapOf("a" to "df"))
+        }
+
+        @Test
+        fun testBusinessUsualPassenger(sdf: TestInfo) {
             val economyFlight = BusinessFlight(id = "1")
             val roland = Passenger(name = "Roland", vip = false)
 
@@ -168,5 +175,13 @@ class AirportTest {
                 )
             }
         }
+    }
+
+
+    @RepeatedTest(value = 5, name = "{displayName} - {currentRepetition}/{totalRepetitions}")
+    @DisplayName("La repetition")
+    fun repetitionTest(repetitionInfo: RepetitionInfo, testReporter: TestReporter) {
+
+        assertEquals(1, 1 + 0)
     }
 }
