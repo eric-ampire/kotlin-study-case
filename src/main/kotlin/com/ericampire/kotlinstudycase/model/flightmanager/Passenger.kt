@@ -1,4 +1,4 @@
-package com.ericampire.kotlinstudycase.model
+package com.ericampire.kotlinstudycase.model.flightmanager
 
 data class Passenger(
     val name: String,

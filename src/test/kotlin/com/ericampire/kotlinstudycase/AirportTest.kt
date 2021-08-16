@@ -1,9 +1,9 @@
 package com.ericampire.kotlinstudycase
 
-import com.ericampire.kotlinstudycase.model.BusinessFlight
-import com.ericampire.kotlinstudycase.model.EconomicFlight
-import com.ericampire.kotlinstudycase.model.Passenger
-import com.ericampire.kotlinstudycase.model.PremiumFlight
+import com.ericampire.kotlinstudycase.model.flightmanager.BusinessFlight
+import com.ericampire.kotlinstudycase.model.flightmanager.EconomicFlight
+import com.ericampire.kotlinstudycase.model.flightmanager.Passenger
+import com.ericampire.kotlinstudycase.model.flightmanager.PremiumFlight
 import org.junit.jupiter.api.*
 import org.junit.jupiter.api.Assertions.assertEquals
 
