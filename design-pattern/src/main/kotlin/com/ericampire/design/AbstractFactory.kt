@@ -1,4 +1,4 @@
-package com.ericampire.design.factorymethod
+package com.ericampire.design
 
 /**
  * The abstract factory allow the creation of a family of object without specifying the

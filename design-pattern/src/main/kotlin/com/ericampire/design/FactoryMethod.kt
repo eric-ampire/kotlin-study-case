@@ -1,4 +1,4 @@
-package com.ericampire.design.factorymethod
+package com.ericampire.design
 
 /**
  * This pattern make easy the creation of different object that have the same parent, in one side we
