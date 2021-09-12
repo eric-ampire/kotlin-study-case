@@ -68,7 +68,7 @@ class PaymentApplication {
 
   fun init() {
     val provider = getProvider()
-    val paymentFactory: PaymentFactory = when(provider) {
+    val paymentFactory: PaymentFactory = when (provider) {
       "airtel" -> AirtelMoneyFactory()
       "vodacom" -> MpsaFactory()
       else -> throw IllegalArgumentException("Not supported yet")
